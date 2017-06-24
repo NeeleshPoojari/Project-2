@@ -1,5 +1,8 @@
 package com.niit.dao;
 
+import java.util.List;
+
+import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,6 +22,15 @@ public class UsersDaoImpl implements UsersDao {
 		session.flush();
 		session.close();
 
+	}
+
+	
+	public List<Users> getAllUsers() {
+	  Session session=sessionFactory.openSession();
+	  Query query=session.createQuery("from Users");
+	  List<Users> users=query.list();
+	  session.close();
+		return users;
 	}
 
 }

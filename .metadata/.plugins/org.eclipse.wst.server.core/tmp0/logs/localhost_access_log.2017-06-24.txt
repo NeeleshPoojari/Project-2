@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/Jun/2017:00:00:57 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:01:40 +0530] "GET /frontend_project2/ HTTP/1.1" 200 1825
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:01:40 +0530] "GET /frontend_project2/js/app.js HTTP/1.1" 200 280
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:01:40 +0530] "GET /frontend_project2/controller/usercontroller.js HTTP/1.1" 200 390
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:01:40 +0530] "GET /frontend_project2/service/userservice.js HTTP/1.1" 200 245
+127.0.0.1 - - [24/Jun/2017:00:03:24 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:26 +0530] "GET /frontend_project2/ HTTP/1.1" 200 1825
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:26 +0530] "GET /frontend_project2/js/app.js HTTP/1.1" 200 280
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:26 +0530] "GET /frontend_project2/controller/usercontroller.js HTTP/1.1" 200 390
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:26 +0530] "GET /frontend_project2/service/userservice.js HTTP/1.1" 200 245
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:30 +0530] "GET /frontend_project2/views/home.html HTTP/1.1" 200 20
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:30 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:03:40 +0530] "GET /frontend_project2/views/registrationform.html HTTP/1.1" 200 618
+0:0:0:0:0:0:0:1 - - [24/Jun/2017:00:04:26 +0530] "POST /backend_project2/registration HTTP/1.1" 201 -

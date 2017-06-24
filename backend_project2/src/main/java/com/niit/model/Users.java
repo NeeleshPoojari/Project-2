@@ -5,16 +5,20 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
 @Entity
 @Table(name="users_batch19")
 public class Users {
-
+         
+	@NotEmpty
 	private String firstname;
 	private String lastname;
 	private String email;
 	@Id
 	private String username;
 	private String password;
+	@NotEmpty
 	private String role;
 	@Column(name="on_line")
 	private boolean online;
