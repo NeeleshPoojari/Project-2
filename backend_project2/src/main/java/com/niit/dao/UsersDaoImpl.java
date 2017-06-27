@@ -33,4 +33,28 @@ public class UsersDaoImpl implements UsersDao {
 		return users;
 	}
 
+
+	public Users login(Users users) {
+		Session session=sessionFactory.openSession();
+		Query query=session.createQuery("from Users where username=? and password=? and enabled=?");
+		query.setString(0,users.getUsername());
+		query.setString(1,users.getPassword());
+		query.setBoolean(2, true);
+		Users validUsers=(Users)query.uniqueResult();
+		session.close();
+		return validUsers;
+	}
+
+
+
+	public Users updateUser(Users validUser) {
+		Session session=sessionFactory.openSession();
+		session.update(validUser);
+		session.flush();
+		session.close();
+		return validUser;
+	
+		
+	}
+
 }

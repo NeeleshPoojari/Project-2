@@ -23,7 +23,10 @@ data-toggle="collapse" data-target="#collapse-example" aria-expanded="false">
 </div>
 <div class="collapse navbar-collapse" id="collapse-example">
 <ul class="nav navbar-nav ">
-<li><a href="#/registration">Register</a></li>
+<li><a href="#/registration" ng-hide="currentUser.firstname">Register</a></li>
+<li><a href="#/login" ng-hide="currentUser.firstname">login</a></li>
+<li><a href="" ng-click="logout()" ng-show="currentUser.firstname">logout</a></li>
+<li><a href="" ng-show="currentUser.firstname">Welcome {{currentUser.firstname}} &nbsp;  {{currentUser.lastname}}</a>
 </ul>
 </div>
 </div>
@@ -51,4 +54,4 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scri
 <script type="text/javascript" src="controller/usercontroller.js"></script>
 <script type="text/javascript" src="service/userservice.js"></script>
 
-</html>
+</html> 
