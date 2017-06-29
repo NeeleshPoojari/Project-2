@@ -3,3 +3,120 @@ Jun 24, 2017 14:21:40.71 NEW SESSION
 Jun 24, 2017 14:21:40.71 [GPU 3916] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Jun 24, 2017 14:21:40.84 [Child 15552] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Jun 24, 2017 14:21:41.73 [GPU 3916] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jun 27, 2017 20:51:58.50 NEW SESSION
+Jun 27, 2017 20:51:58.50 1498576918494	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jun 27, 2017 20:51:58.61 1498576918617	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jun 27, 2017 20:51:58.69 1498576918694	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jun 27, 2017 20:51:58.81 1498576918828	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jun 27, 2017 20:51:58.87 1498576918881	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+Jun 27, 2017 20:52:05.76 1498576925782	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jun 27, 2017 20:54:58.09 [Child 6432] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 20:54:59.47 
+Jun 27, 2017 20:54:59.47 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jun 27, 2017 20:54:59.48 
+Jun 27, 2017 21:01:02.16 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:01:03.41 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:02:02.14 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:02:02.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:02:04.22 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:02:04.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:37:28.37 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:37:29.58 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:08.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:08.85 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:08.90 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:08.96 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:08.98 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.07 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.10 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.16 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.22 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.55 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:09.80 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:10.96 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:10.97 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:11.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:11.63 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:11.77 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:11.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:11.99 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:12.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:12.37 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:12.50 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:12.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:13.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:14.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:16.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:16.74 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:16.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:16.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:16.98 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:17.08 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:17.18 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:17.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:17.34 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:18.77 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:19.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:19.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:19.20 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:23.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:23.96 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:28.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:28.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:28.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:36.89 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:38:37.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:45:21.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:45:22.88 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:46:21.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:46:27.94 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:46:28.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:52:26.79 Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Jun 27, 2017 21:52:26.84 Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+Jun 27, 2017 21:52:26.84 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jun 27, 2017 21:52:26.84 NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+Jun 27, 2017 21:52:26.84 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jun 27, 2017 21:52:26.84 onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Jun 27, 2017 21:52:26.84 Line: 1670, column: 0
+Jun 27, 2017 21:52:26.84 console.error: 
+Jun 27, 2017 21:52:26.84   Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Jun 27, 2017 21:52:26.84 Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+Jun 27, 2017 21:52:26.84 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jun 27, 2017 21:52:26.84 NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+Jun 27, 2017 21:52:26.85 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jun 27, 2017 21:52:26.85 onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Jun 27, 2017 21:52:26.85 Line: 1670, column: 0
+Jun 27, 2017 21:52:26.91 Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Jun 27, 2017 21:52:26.91 Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+Jun 27, 2017 21:52:26.91 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jun 27, 2017 21:52:26.91 _onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:628:5
+Jun 27, 2017 21:52:26.91 onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:585:7
+Jun 27, 2017 21:52:26.91 onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:676:7
+Jun 27, 2017 21:52:26.91 Line: 1670, column: 0
+Jun 27, 2017 21:52:26.92 console.error: 
+Jun 27, 2017 21:52:26.92   Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1670"  data: no]
+Jun 27, 2017 21:52:26.92 Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1670:5
+Jun 27, 2017 21:52:26.92 exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Jun 27, 2017 21:52:26.92 _onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:628:5
+Jun 27, 2017 21:52:26.92 onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:585:7
+Jun 27, 2017 21:52:26.92 onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:676:7
+Jun 27, 2017 21:52:26.92 Line: 1670, column: 0
+Jun 27, 2017 21:52:40.95 [GPU 1676] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 21:52:41.94 [Child 6948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 21:52:41.95 [Child 6948] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 21:52:44.78 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:52:45.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:53:41.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:53:44.53 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 21:53:44.60 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 27, 2017 22:01:18.33 [Child 7848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 22:01:18.41 
+Jun 27, 2017 22:01:18.41 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400AB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+Jun 27, 2017 22:01:18.41 
+Jun 27, 2017 22:01:18.41 [Child 7848] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 22:12:03.63 [Child 9032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 27, 2017 22:28:51.38 1498582731387	Sync.ErrorHandler	ERROR	Sync encountered a login error
+Jun 27, 2017 23:28:51.41 1498586331411	Sync.ErrorHandler	ERROR	Sync encountered a login error

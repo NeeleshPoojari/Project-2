@@ -11,6 +11,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.orm.hibernate4.HibernateTransactionManager;
 import org.springframework.orm.hibernate4.LocalSessionFactoryBuilder;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
+
+import com.niit.model.Job;
 import com.niit.model.Users;
 
 @Configuration
@@ -25,10 +27,10 @@ public class DBConfig {
 		Properties hibernateProperties=new Properties();
 		hibernateProperties.setProperty(
 				"hibernate.dialect", "org.hibernate.dialect.Oracle10gDialect");
-		hibernateProperties.setProperty("hibernate.hbm2ddl.auto", "update");
+		hibernateProperties.setProperty("hibernate.hbm2ddl.auto","update");
 		hibernateProperties.setProperty("hibernate.show_sql", "true");
 		lsf.addProperties(hibernateProperties);
-		Class classes[]=new Class[]{Users.class};
+		Class classes[]=new Class[]{Users.class,Job.class};
 	    return lsf.addAnnotatedClasses(classes).buildSessionFactory();
 	}
 	@Bean

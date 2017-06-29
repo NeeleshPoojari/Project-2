@@ -1,4 +1,4 @@
-var app = angular.module("myApp", [ 'ngRoute' ])
+var app = angular.module("myApp", ['ngRoute','ngCookies'])
 app.config(function($routeProvider) {
 
 	$routeProvider
@@ -14,6 +14,15 @@ app.config(function($routeProvider) {
 		controller : 'UserController'
 
 	})
+	
+	.when('/savejob',{
+		
+		templateUrl : 'views/jobform.html',
+		controller : 'JobController'
+		
+	
+	})
+	
 
 	.otherwise({
 		templateUrl : 'views/home.html'
@@ -22,11 +31,17 @@ app.config(function($routeProvider) {
 
 })
 
-app.run(function($rootScope,$location,UserService) {
+app.run(function($rootScope,$location,UserService,$cookieStore) {
 
+	
+	if($rootScope.currentUser==undefined)
+		$rootScope.currentUser=$cookieStore.get("currentUser")
+	
 	$rootScope.logout = function() {
 		UserService.logout().then(function(response) {
 			$rootScope.message = "logged out successfully.."
+			delete $rootScope.currentUser;
+			$cookieStore.remove("currentUser")
 			$location.path('/login')
 
 		}, function(response) {
