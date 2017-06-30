@@ -23,7 +23,14 @@ app.config(function($routeProvider) {
 	
 	})
 	
-
+	.when('/getalljobs',{
+		
+		templateUrl : 'views/jobtitles.html',
+		controller : 'JobController'
+		
+	
+	})
+	
 	.otherwise({
 		templateUrl : 'views/home.html'
 

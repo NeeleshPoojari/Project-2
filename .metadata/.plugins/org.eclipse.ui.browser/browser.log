@@ -120,3 +120,65 @@ Jun 27, 2017 22:01:18.41 [Child 7848] WARNING: pipe error: 109: file c:/builds/m
 Jun 27, 2017 22:12:03.63 [Child 9032] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Jun 27, 2017 22:28:51.38 1498582731387	Sync.ErrorHandler	ERROR	Sync encountered a login error
 Jun 27, 2017 23:28:51.41 1498586331411	Sync.ErrorHandler	ERROR	Sync encountered a login error
+
+Jun 29, 2017 22:36:09.03 NEW SESSION
+Jun 29, 2017 22:36:09.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:36:10.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:04.79 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:04.83 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:19.43 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:22.04 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:22.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:24.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:31.33 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:31.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:34.86 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:54.63 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:54.64 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:37:54.72 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:06.33 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:06.34 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:06.37 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:09.06 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:09.09 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:12.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:12.80 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:12.99 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:13.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:18.42 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:18.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:19.04 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:19.44 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:20.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:24.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:24.44 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:24.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:36.03 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:36.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:36.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.44 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:37.95 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:38.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:43.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:43.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:43.50 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:38:43.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:04.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:11.70 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:33.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:33.33 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:33.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:35.71 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jun 29, 2017 22:39:35.83 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+
+Jun 30, 2017 11:22:11.06 NEW SESSION
+Jun 30, 2017 11:22:11.06 console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+Jun 30, 2017 11:34:29.95 [GPU 2492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 11:34:29.95 [GPU 2492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 11:34:30.09 [Child 440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

@@ -1,6 +1,7 @@
 package com.niit.controllers;
 
 import java.util.Date;
+import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
@@ -49,4 +50,18 @@ public class JobController {
 
 	}
 
+	@RequestMapping(value="/getalljobs" , method=RequestMethod.GET)
+	public ResponseEntity<?> getAllJobs(HttpSession session){
+		
+		Users users=(Users)session.getAttribute("user");
+		if(users==null){
+			
+			Error error = new Error(3, "Unauthorized user");
+			return new ResponseEntity<Error>(error, HttpStatus.UNAUTHORIZED);	
+			
+		}
+		List<Job> jobs=jobDao.getAllJobs();
+		return new ResponseEntity<List<Job>>(jobs,HttpStatus.OK);
+	}
+	
 }
