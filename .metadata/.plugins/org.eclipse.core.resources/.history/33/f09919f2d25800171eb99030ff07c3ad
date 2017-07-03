@@ -1,7 +1,0 @@
-<div>
-	{{message}}
-	<form>
-		Enter Username:<input type="text"> Enter Password:<input
-			type="password"> <input type="submit">
-	</form>
-</div>

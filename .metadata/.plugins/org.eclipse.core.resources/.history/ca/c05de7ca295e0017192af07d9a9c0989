@@ -1,0 +1,32 @@
+<div>
+
+<table class="table">
+<thead>
+<tr>
+<th>Job Title</th><th>Posted On</th>
+</tr>
+</thead>
+<tbody>
+
+<tr ng-repeat="job in jobs">
+<td><a href="" ng-click="getJobDetail(job.id)">{{job.jobTitle}}</a></td><td>{{job.postedOn | date:'yyyy:MM:dd'}}</td>
+</tr>
+
+</tbody>
+</table>
+
+<div ng-show="showdetails">
+<b>Job Details</b>
+
+Job Title : {{job.jobTitle}} <br>
+Job Description:{{job.jobDescription}}<br>
+Years Of Experience:{{job.yrsOfExp}}<br>
+Salary:{{job.salary}}<br>
+Skills Required:{{job.skillsRequired}}<br>
+Location:{{job.location}}<br>
+Company Name:{{job.companyName}}<br>
+</div>
+
+
+
+</div>

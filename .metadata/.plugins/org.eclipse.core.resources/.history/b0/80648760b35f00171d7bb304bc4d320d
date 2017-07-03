@@ -1,0 +1,29 @@
+package com.niit.controllers;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.niit.dao.BlogPostDao;
+import com.niit.model.BlogPost;
+
+@RestController
+public class BlogPostController {
+
+	@Autowired
+	private BlogPostDao blogPostDao;
+	
+	
+	@RequestMapping(value="/saveblogpost",method=RequestMethod.POST)
+	public ResponseEntity<?> saveBlogPost(@RequestBody BlogPost blogPost,HttpSession session){
+		
+	}
+	
+	
+	
+}

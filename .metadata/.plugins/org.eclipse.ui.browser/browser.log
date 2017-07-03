@@ -182,3 +182,45 @@ Jun 30, 2017 11:22:11.06 console.warn: nsLoginManager: searchLogins: `formSubmit
 Jun 30, 2017 11:34:29.95 [GPU 2492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Jun 30, 2017 11:34:29.95 [GPU 2492] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Jun 30, 2017 11:34:30.09 [Child 440] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+Jun 30, 2017 16:06:52.41 NEW SESSION
+Jun 30, 2017 16:06:52.41 [GPU 8812] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 16:06:54.36 
+Jun 30, 2017 16:06:54.36 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jun 30, 2017 16:06:54.36 
+Jun 30, 2017 16:08:58.07 
+Jun 30, 2017 16:08:58.07 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jun 30, 2017 16:08:58.07 
+Jun 30, 2017 16:09:23.91 [Child 5304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 16:55:12.29 [NPAPI 9372] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 17:07:00.18 
+Jun 30, 2017 17:07:01.60 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jun 30, 2017 17:07:01.60 
+Jun 30, 2017 17:07:01.60 
+Jun 30, 2017 17:07:01.62 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 [Child 13180] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 17:07:01.62 [Child 13180] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:01.62 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C002B,name=PBrowser::Msg_SetInputContext) Closed channel: cannot send/recv
+Jun 30, 2017 17:07:01.62 
+Jun 30, 2017 17:07:10.66 
+Jun 30, 2017 17:07:10.66 ###!!! [Parent][MessageChannel] Error: (msgtype=0x40000B,name=PCompositorWidget::Msg_UnobserveVsync) Channel error: cannot send/recv
+Jun 30, 2017 17:07:10.66 
+
+Jul 03, 2017 10:25:59.41 NEW SESSION
+Jul 03, 2017 10:25:59.41 1499057759411	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+Jul 03, 2017 10:25:59.45 1499057759454	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+Jul 03, 2017 10:25:59.51 1499057759512	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+Jul 03, 2017 10:25:59.57 1499057759569	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+Jul 03, 2017 10:25:59.69 1499057759694	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Jul 03, 2017 10:25:59.73 1499057759734	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property

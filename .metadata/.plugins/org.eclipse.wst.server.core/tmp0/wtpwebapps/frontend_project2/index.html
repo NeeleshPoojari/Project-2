@@ -20,14 +20,15 @@ data-toggle="collapse" data-target="#collapse-example" aria-expanded="false">
 </button>
 
 <div class="navbar-header">
-<a class="navbar-brand" href="/">NIIT</a>
+<a class="navbar-brand" href="/">NKP</a>
 </div>
 <div class="collapse navbar-collapse" id="collapse-example">
 <ul class="nav navbar-nav ">
 <li><a href="#/registration" ng-hide="currentUser.firstname">Register</a></li>
 <li><a href="#/login" ng-hide="currentUser.firstname">login</a></li>
 <li><a href="#/savejob" ng-show="currentUser.role=='Admin'">Save Job Details</a>
-<li><a href="#/getalljobs" ng-show="currentUser.firstname">getAllJobs</a>
+<li><a href="#/getalljobs" ng-show="currentUser.firstname">GetAllJobs</a>
+<li><a href="#saveblogpost" ng-show="currentUser.firstname">Post a Blog</a></li>
 
 
 <li><a href="" ng-click="logout()" ng-show="currentUser.firstname">logout</a></li>
@@ -65,5 +66,7 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scri
 
 <script type="text/javascript" src="controller/jobcontroller.js"></script>
 <script type="text/javascript" src="service/jobservice.js"></script>
+<script type="text/javascript" src="controller/blogpostcontroller.js"></script>
+<script type="text/javascript" src="service/blogpostservice.js"></script>
 
 </html> 

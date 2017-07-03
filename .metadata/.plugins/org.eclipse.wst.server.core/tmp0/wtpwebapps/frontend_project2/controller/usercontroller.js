@@ -1,10 +1,10 @@
 
 app.controller('UserController',function(UserService,$scope,$location,$rootScope,$cookieStore){
-	
+	$scope.registrationSuccess=''
 	$scope.register=function(){
 		
 		UserService.registerUser($scope.user).then(function(response){
-			$scope.message="Registered Successfully..please login"
+			$scope.registrationSuccess="Registered Successfully..please login"
 				$location.path('/login')
 				
 		},function(response){
