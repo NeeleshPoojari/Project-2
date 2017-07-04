@@ -224,3 +224,11 @@ Jul 03, 2017 10:25:59.51 1499057759512	addons.update-checker	WARN	Update manifes
 Jul 03, 2017 10:25:59.57 1499057759569	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
 Jul 03, 2017 10:25:59.69 1499057759694	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
 Jul 03, 2017 10:25:59.73 1499057759734	addons.update-checker	WARN	Update manifest for followonsearch@mozilla.com did not contain an updates property
+
+Jul 04, 2017 16:08:14.48 NEW SESSION
+Jul 04, 2017 16:08:14.49 [GPU 3904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 04, 2017 16:08:14.90 [Child 11988] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 04, 2017 16:08:14.90 [Child 11988] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 04, 2017 16:08:16.43 
+Jul 04, 2017 16:08:16.43 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 04, 2017 16:08:16.43 

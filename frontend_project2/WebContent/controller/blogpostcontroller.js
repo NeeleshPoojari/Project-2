@@ -13,15 +13,31 @@ $scope.saveBlogPost=function(){
 	}
 	if(response.status==500){
 		
-		$location.path('/blogform')
+		$location.path('/saveblogpost')
 		
 	}
 		
 	})
 	
-	
 }	
 	
+	$scope.blogsApproved=BlogPostService.blogsApproved().then(function(response){
+		
+		$scope.blogsApproved=response.data;
+	},function(response){
+		
+	console.log(response.status)
+	})
+	
+	
+	$scope.blogsWaitingForApproval=BlogPostService.blogsWaitingForApproval().then(function(response){
+		
+		$scope.blogsWaitingForApproval=response.data;
+		console.log(response.data)
+	},function(response){
+		
+	console.log(response.status)
+	})
 	
 	
 })

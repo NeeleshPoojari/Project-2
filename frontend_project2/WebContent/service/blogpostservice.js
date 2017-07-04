@@ -9,5 +9,15 @@ app.factory('BlogPostService',function($http){
 		return $http.post("http://localhost:8080/backend_project2/saveblogpost",blogPost)	
 	}
 	
+     blogPostService.blogsApproved=function(){
+		
+		return $http.get("http://localhost:8080/backend_project2/listofblogs/"+1)	
+	}
+
+     blogPostService.blogsWaitingForApproval=function(){
+	
+	return $http.get("http://localhost:8080/backend_project2/listofblogs/"+0)	
+}
+	
 	return blogPostService;
 })

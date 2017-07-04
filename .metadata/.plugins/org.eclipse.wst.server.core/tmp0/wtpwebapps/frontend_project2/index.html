@@ -28,11 +28,18 @@ data-toggle="collapse" data-target="#collapse-example" aria-expanded="false">
 <li><a href="#/login" ng-hide="currentUser.firstname">login</a></li>
 <li><a href="#/savejob" ng-show="currentUser.role=='Admin'">Save Job Details</a>
 <li><a href="#/getalljobs" ng-show="currentUser.firstname">GetAllJobs</a>
-<li><a href="#saveblogpost" ng-show="currentUser.firstname">Post a Blog</a></li>
+<!-- <li><a href="#saveblogpost" ng-show="currentUser.firstname">Post a Blog</a></li> -->
+<li><a href="" ng-show="currentUser.firstname">Welcome {{currentUser.firstname}} {{currentUser.lastname}}</a></li>
 
-
+<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username">Blog<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#/getallblogs">View all blogs</a></li>
+<li><a href="#/saveblogpost">Post</a></li>
+</ul></li>
 <li><a href="" ng-click="logout()" ng-show="currentUser.firstname">logout</a></li>
-<li><a href="" ng-show="currentUser.firstname">Welcome {{currentUser.firstname}} {{currentUser.lastname}}</a>
+
+
+
 </ul>
 </div>
 </div>
