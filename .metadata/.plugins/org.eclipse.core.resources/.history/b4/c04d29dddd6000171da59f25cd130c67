@@ -1,0 +1,27 @@
+
+
+app.factory('BlogPostService',function($http){
+	
+	var blogPostService={}
+	
+	blogPostService.saveBlog=function(blogPost){
+		
+		return $http.post("http://localhost:8080/backend_project2/saveblogpost",blogPost)	
+	}
+	
+     blogPostService.blogsApproved=function(){
+		
+		return $http.get("http://localhost:8080/backend_project2/listofblogs/"+1)	
+	}
+
+     blogPostService.blogsWaitingForApproval=function(){
+	
+	return $http.get("http://localhost:8080/backend_project2/listofblogs/"+0)	
+}
+     blogPostService.getBlogPost=function(id){
+    	 
+    	 return $http.get("http://localhost:8080/backend_project2/getblogpost/"+id)	  	 
+     }
+	
+	return blogPostService;
+})

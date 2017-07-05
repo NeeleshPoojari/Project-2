@@ -34,4 +34,19 @@ public class BlogPostDaoImpl implements BlogPostDao {
         return blogPosts ;
 	}
 
+	public BlogPost getBlogById(int id) {
+		Session session=sessionFactory.openSession();
+		BlogPost blogPost=(BlogPost)session.get(BlogPost.class,id);
+		return blogPost;
+	}
+
+
+	public void updateBlogPost(BlogPost blogPost) {
+		Session session=sessionFactory.openSession();
+		session.update(blogPost);
+		session.flush();
+		session.close();
+		
+	}
+
 }

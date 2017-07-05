@@ -18,6 +18,16 @@ app.factory('BlogPostService',function($http){
 	
 	return $http.get("http://localhost:8080/backend_project2/listofblogs/"+0)	
 }
+     blogPostService.getBlogPost=function(id){
+    	 
+    	 return $http.get("http://localhost:8080/backend_project2/getblogpost/"+id)	  	 
+     }
+     
+ blogPostService.updateBlogPost=function(blogpost){
+    	 
+    	 return $http.put("http://localhost:8080/backend_project2/updateblogpost",blogpost)	  	 
+     }
+     
 	
 	return blogPostService;
 })

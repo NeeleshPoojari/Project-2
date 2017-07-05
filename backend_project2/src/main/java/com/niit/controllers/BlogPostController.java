@@ -65,6 +65,28 @@ public class BlogPostController {
 		return new ResponseEntity<List<BlogPost>>(blogPosts,HttpStatus.OK);
 	}
 	
+	@RequestMapping(value="/getblogpost/{id}",method=RequestMethod.GET)
+	public ResponseEntity<?> getBlogPost(@PathVariable int id,HttpSession session){
+		Users users=(Users)session.getAttribute("user");
+		if(users==null){
+			Error error=new Error(3,"Unauthorized user");
+			return new ResponseEntity<Error>(error,HttpStatus.UNAUTHORIZED);
+		}
+		BlogPost blogPost=blogPostDao.getBlogById(id);
+		return new ResponseEntity<BlogPost>(blogPost,HttpStatus.OK);
+	}
+	
+	
+	@RequestMapping(value="/updateblogpost",method=RequestMethod.PUT)
+	public ResponseEntity<?> updateBlogPost(@RequestBody BlogPost blogPost,HttpSession session){
+		Users users=(Users)session.getAttribute("user");
+		if(users==null){
+			Error error=new Error(3,"Unauthorized user");
+			return new ResponseEntity<Error>(error,HttpStatus.UNAUTHORIZED);
+		}
+		blogPostDao.updateBlogPost(blogPost);
+		return new ResponseEntity<Void>(HttpStatus.OK);
+	}
 	
 	
 }
