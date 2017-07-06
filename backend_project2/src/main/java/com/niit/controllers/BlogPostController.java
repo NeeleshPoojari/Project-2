@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.niit.dao.BlogPostDao;
+import com.niit.model.BlogComment;
 import com.niit.model.BlogPost;
 import com.niit.model.Error;
 import com.niit.model.Users;
@@ -87,6 +88,29 @@ public class BlogPostController {
 		blogPostDao.updateBlogPost(blogPost);
 		return new ResponseEntity<Void>(HttpStatus.OK);
 	}
+	
+	
+	@RequestMapping(value="/addblogcomment",method=RequestMethod.POST)
+	public ResponseEntity<?> addBlogComment(@RequestBody BlogComment blogComment,HttpSession session){
+		Users users=(Users)session.getAttribute("user");
+		if(users==null){
+			Error error=new Error(3,"Unauthorized user");
+			return new ResponseEntity<Error>(error,HttpStatus.UNAUTHORIZED);
+		}
+		
+		try{
+		blogComment.setCommentedBy(users);
+		blogComment.setCommentedOn(new Date());
+		blogPostDao.addComment(blogComment);
+		return new ResponseEntity<Void>(HttpStatus.OK);
+		}
+		catch(Exception e){
+			Error error=new Error(4,"Unable to add commentuse"+e.getMessage());
+			return new ResponseEntity<Error>(error,HttpStatus.INTERNAL_SERVER_ERROR);
+			
+		}
+	}
+	
 	
 	
 }

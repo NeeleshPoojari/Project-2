@@ -1,0 +1,23 @@
+<div class="row">
+<div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<div>{{blogPost.title}}</div>
+<span><strong>Created By:</strong>{{blogPost.createdBy.username}}</span>
+<span><strong>On:</strong>{{blogPost.postedOn | date:'medium'}}</span>
+
+</div>
+<div class="panel-body">
+{{blogPost.description}}
+</div>
+
+</div>
+
+</div>
+</div>
+<form>
+<textarea rows="3" cols="20" ng-model="blogComment.body"></</textarea>
+<div>
+<button ng-click="addComment()" value="Post Comment"></button>
+</div>
+</form>

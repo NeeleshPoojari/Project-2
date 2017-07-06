@@ -28,6 +28,10 @@ app.factory('BlogPostService',function($http){
     	 return $http.put("http://localhost:8080/backend_project2/updateblogpost",blogpost)	  	 
      }
      
+ blogPostService.addComment=function(blogComment){
+	 
+	 return $http.post("http://localhost:8080/backend_project2/addblogcomment",blogComment)	  	 
+ }
 	
 	return blogPostService;
 })

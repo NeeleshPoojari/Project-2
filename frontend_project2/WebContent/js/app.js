@@ -53,6 +53,13 @@ app.config(function($routeProvider) {
 		
 	})
 	
+	.when('/getBlogDetail/:id',{
+		templateUrl:'views/blogdetail.html',
+		controller:'BlogDetailController'
+		
+		
+	})
+	
 	.otherwise({
 		templateUrl : 'views/home.html'
 
