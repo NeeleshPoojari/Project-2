@@ -32,8 +32,22 @@ app.controller('BlogDetailController',function($scope,$location,BlogPostService,
 	},function(response){
 	console.log(response.status);
 	})
-}	
+ }	
 	
+   $scope.getBlogComments=function(blogId){
+		$scope.showComments=true;
+		BlogPostService.getBlogComments(blogId).then(function(response){
+		
+		$scope.blogComments=response.data;
+		console.log(response.data);
+		console.log(response.status);
+			
+		},function(response){
+		console.log(response.status);		
+		})
+		
+		
+	}
 	
 	
 	

@@ -2,7 +2,9 @@ package com.niit.model;
 
 import java.util.Date;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -22,7 +24,7 @@ public class BlogComment {
 	@JoinColumn(name="username")
 	private Users commentedBy;
 	private Date commentedOn;
-	@ManyToOne
+	@ManyToOne(cascade=CascadeType.ALL,fetch=FetchType.EAGER)
 	@JoinColumn(name="blogpost_id")
 	private BlogPost blogPost;
 	private String body;

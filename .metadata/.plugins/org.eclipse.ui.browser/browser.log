@@ -232,3 +232,6 @@ Jul 04, 2017 16:08:14.90 [Child 11988] WARNING: pipe error: 109: file c:/builds/
 Jul 04, 2017 16:08:16.43 
 Jul 04, 2017 16:08:16.43 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 Jul 04, 2017 16:08:16.43 
+
+Jul 07, 2017 11:28:01.68 NEW SESSION
+Jul 07, 2017 11:28:01.68 [3252:8556:0707/112801.600:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser

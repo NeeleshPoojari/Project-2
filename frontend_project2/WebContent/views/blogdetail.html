@@ -21,3 +21,18 @@
 <button ng-click="addComment()">PostComment</button>
 </div>
 </form>
+<div class="row">
+<a href="" ng-click="getBlogComments(blogPost.id)">Show Blog Comment</a>
+<ul ng-show="showComments">
+<li ng-repeat="comment in blogComments" style="list-style: none;">
+<div>
+{{comment.body}}
+
+<span><strong>Commented By</strong>{{comment.commentedBy.username}}</span>
+<span><strong>Commented On</strong>{{comment.commentedOn | date:'MM/dd/yyyy'}}</span>
+
+</div>
+</li>
+</ul>
+</div>
+
