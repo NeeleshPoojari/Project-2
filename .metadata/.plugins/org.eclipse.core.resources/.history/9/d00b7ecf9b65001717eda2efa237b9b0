@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+app.controller('FriendController',function($scope,$location,FriendService){
+function listOfSuggestedUsers(){
+	
+	$scope.suggestedUsers=FriendService.suggestedUsers().then(function(response){
+	
+	$scope.suggestedUsers=response.data;
+	
+	},function(response){
+		
+	console.log(response.status);	
+		
+		
+	})	
+}	
+
+listOfSuggestedUsers();
+})

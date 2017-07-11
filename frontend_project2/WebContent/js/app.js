@@ -60,6 +60,14 @@ app.config(function($routeProvider) {
 		
 	})
 	
+	.when('/suggestedusers',{
+		templateUrl:'views/suggestedusers.html',
+		controller:'FriendController'
+		
+		
+	})
+	
+	
 	.otherwise({
 		templateUrl : 'views/home.html'
 
