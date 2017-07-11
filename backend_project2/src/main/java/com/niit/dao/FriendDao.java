@@ -10,6 +10,6 @@ public interface FriendDao {
 List<Users> listOfSuggestedUsers(String username);
 
 void friendRequest(String fromUsername, String toUsername);
-List<Friend> listOfPendingRequests(String toUsername);
+List<Friend> listOfPendingRequests(String loggedInUsername);
 
 }

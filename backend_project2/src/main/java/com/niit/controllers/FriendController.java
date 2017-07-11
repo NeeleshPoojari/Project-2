@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.niit.dao.FriendDao;
 import com.niit.model.Error;
+import com.niit.model.Friend;
 import com.niit.model.Users;
 
 @Controller
@@ -50,6 +51,20 @@ public class FriendController {
 		String fromUsername=users.getUsername();
 		friendDao.friendRequest(fromUsername,toUsername);
 		return new ResponseEntity<Void>(HttpStatus.OK);
+		
+	}
+	
+	@RequestMapping(value="/pendingrequests",method=RequestMethod.GET)
+	public ResponseEntity<?> pendingRequests(HttpSession session){
+	Users users=(Users)session.getAttribute("user");
+	if (users == null) {
+     	Error error = new Error(3, "Unauthorized user");
+		return new ResponseEntity<Error>(error, HttpStatus.UNAUTHORIZED);
+	}
+	
+	List<Friend> pendingRequests=friendDao.listOfPendingRequests(users.getUsername());
+	return new ResponseEntity<List<Friend>>(pendingRequests,HttpStatus.OK);
+	
 		
 	}
 
