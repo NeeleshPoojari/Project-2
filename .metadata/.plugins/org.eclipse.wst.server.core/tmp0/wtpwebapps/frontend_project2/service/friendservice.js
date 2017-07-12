@@ -5,8 +5,7 @@
 app.factory('FriendService',function($http){
 
 	var friendService={};
-	
-	
+		
 	friendService.suggestedUsers=function(){
 		
 		return $http.get("http://localhost:8080/backend_project2/suggesteduserslist")
@@ -21,9 +20,10 @@ app.factory('FriendService',function($http){
 		
 		return $http.get("http://localhost:8080/backend_project2/pendingrequests")
 	}
-
-	
-	
+   friendService.updatePendingRequest=function(fromId,status){
+		
+		return $http.put("http://localhost:8080/backend_project2/updatependingrequest/"+fromId+"/"+status);
+	}
 	
 return friendService;	
 	

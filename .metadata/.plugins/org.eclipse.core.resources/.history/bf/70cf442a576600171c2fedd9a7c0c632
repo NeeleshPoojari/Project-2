@@ -27,15 +27,6 @@ app.controller('FriendController',function($scope,$location,FriendService){
 	  console.log(response.status);
 	  })	  
   }
-    
-    $scope.updatePendingRequest=function(fromId,status){
-    FriendService.updatePendingRequest(fromId,status).then(function(response){
-    pendingRequest();
-    $location.path('/pendingrequests')
-    },function(response){
-    	console.log(response.status);
-    })	
-    }
   pendingRequest();
   listOfSuggestedUsers(); 
 })

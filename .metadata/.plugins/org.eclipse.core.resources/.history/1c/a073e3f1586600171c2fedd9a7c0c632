@@ -29,7 +29,7 @@ app.controller('FriendController',function($scope,$location,FriendService){
   }
     
     $scope.updatePendingRequest=function(fromId,status){
-    FriendService.updatePendingRequest(fromId,status).then(function(response){
+    FriendService.updatependingRequest(fromId,status).then(function(response){
     pendingRequest();
     $location.path('/pendingrequests')
     },function(response){
