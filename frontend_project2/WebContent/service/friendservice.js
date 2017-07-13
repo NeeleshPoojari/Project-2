@@ -24,6 +24,11 @@ app.factory('FriendService',function($http){
 		
 		return $http.put("http://localhost:8080/backend_project2/updatependingrequest/"+fromId+"/"+status);
 	}
+
+  friendService.listOfFriends=function(){
+		
+		return $http.get("http://localhost:8080/backend_project2/listoffriends");
+	}
 	
 return friendService;	
 	

@@ -36,6 +36,22 @@ data-toggle="collapse" data-target="#collapse-example" aria-expanded="false">
 <li><a href="#/getallblogs">View all blogs</a></li>
 <li><a href="#/saveblogpost">Post</a></li>
 </ul></li>
+
+<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username">Friend<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li><a href="#/suggestedusers">List of Suggested users</a></li>
+<li><a href="#/pendingrequests">Pending requests</a></li>
+</ul></li>
+
+
+
+
+
+
+
+
+
+
 <li><a href="" ng-click="logout()" ng-show="currentUser.firstname">logout</a></li>
 
 
@@ -76,4 +92,9 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scri
 <script type="text/javascript" src="controller/blogpostcontroller.js"></script>
 <script type="text/javascript" src="service/blogpostservice.js"></script>
 <script type="text/javascript" src="controller/blogdetailcontroller.js"></script>
+<script type="text/javascript" src="service/friendservice.js"></script>
+<script type="text/javascript" src="controller/friendcontroller.js"></script>
+
+
+
 </html> 

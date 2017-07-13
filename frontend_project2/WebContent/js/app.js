@@ -67,10 +67,15 @@ app.config(function($routeProvider) {
 	
 	.when('/pendingrequests',{
 		templateUrl:'views/pendingrequests.html',
-		controller:'FriendController'
-		
+		controller:'FriendController'	
 		
 	})
+	
+	.when('/listoffriends',{
+		templateUrl:'views/listoffriends.html',
+		controller:'FriendController'	
+	})
+	
 	
 	.otherwise({
 		templateUrl : 'views/home.html'
