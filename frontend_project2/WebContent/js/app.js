@@ -76,6 +76,9 @@ app.config(function($routeProvider) {
 		controller:'FriendController'	
 	})
 	
+	.when('/profilepic',{
+	templateUrl:'views/profilepicture.html'	
+	})
 	
 	.otherwise({
 		templateUrl : 'views/home.html'
