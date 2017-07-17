@@ -1,0 +1,30 @@
+<style>
+.middle {
+    border: 1px solid white;
+    background-color: #f5f5f0;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 400px;
+    padding-left: 20px;
+    margin-left:300px;
+    margin-right:300px;
+    
+}
+</style>
+
+<div class="middle">
+<form style="margin-top: 80px;">
+Enter Firstname:<input type="text" ng-model="user.firstname"><br>
+Enter Lastname:<input type="text" ng-model="user.lastname"><br>
+Enter Email:<input type="text" ng-model="user.email"><br>
+Enter Username:<input type="text" ng-model="user.username"><br>
+Enter Password:<input type="password" ng-model="user.password"><br>
+
+Select Role<input type="radio" ng-model="user.role" value="Student">Student<br>
+<input type="radio" ng-model="user.role" value="Alumini">Alumini<br>
+<input type="radio" ng-model="user.role" value="Employee">Employee<br>
+
+<input type="submit" ng-click="register()"><br>
+
+</form>
+</div>

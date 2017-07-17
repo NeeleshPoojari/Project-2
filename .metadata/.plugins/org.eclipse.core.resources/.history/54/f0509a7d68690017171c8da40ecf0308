@@ -1,0 +1,3 @@
+<p style="color:green; " >{{message}}</p>
+
+<h1>Static Page</h1>

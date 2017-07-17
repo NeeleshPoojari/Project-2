@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-<typeInfo handle="=backend_project2/src\/main\/java&lt;com.niit.dao{UsersDao.java[UsersDao" modifiers="513" timestamp="1498318163495"/>
 <typeInfo handle="=backend_project2/C:\/Program Files\/Java\/jdk1.8.0_101\/jre\/lib\/rt.jar&lt;java.nio.file.attribute(UserDefinedFileAttributeView.class[UserDefinedFileAttributeView" modifiers="1537" timestamp="1488000649541"/>
-<typeInfo handle="=backend_project2/src\/main\/java&lt;com.niit.dao{JobDao.java[JobDao" modifiers="513" timestamp="1498837882202"/>
-<typeInfo handle="=backend_project2/src\/main\/java&lt;com.niit.dao{BlogPostDao.java[BlogPostDao" modifiers="513" timestamp="1499522942191"/>
-<typeInfo handle="=backend_project2/src\/main\/java&lt;com.niit.dao{FriendDao.java[FriendDao" modifiers="513" timestamp="1499871350255"/>
-<typeInfo handle="=backend_project2/src\/main\/java&lt;com.niit.dao{ProfilePictureDao.java[ProfilePictureDao" modifiers="513" timestamp="1499964592210"/>
 </typeInfoHistroy>

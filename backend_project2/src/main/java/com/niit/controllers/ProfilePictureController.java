@@ -34,7 +34,7 @@ public class ProfilePictureController {
 		profilePicture.setUsername(users.getUsername());
 		profilePicture.setImage(image.getBytes());
 		profilePictureDao.saveProfilePicture(profilePicture);
-		return new ResponseEntity<Void>(HttpStatus.OK);
+		return new ResponseEntity<Users>(users,HttpStatus.OK);
 	}
 
 	@RequestMapping(value="/getimage/{username}", method=RequestMethod.GET)

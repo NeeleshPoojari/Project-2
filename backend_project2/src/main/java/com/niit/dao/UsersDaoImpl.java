@@ -57,4 +57,12 @@ public class UsersDaoImpl implements UsersDao {
 		
 	}
 
+	public Users getUserByUsername(String username) {
+		Session session=sessionFactory.openSession();
+		Users users=(Users)session.get(Users.class,username);
+		session.close();
+		return users;
+	}
+
+
 }

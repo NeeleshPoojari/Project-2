@@ -235,3 +235,37 @@ Jul 04, 2017 16:08:16.43
 
 Jul 07, 2017 11:28:01.68 NEW SESSION
 Jul 07, 2017 11:28:01.68 [3252:8556:0707/112801.600:ERROR:service_manager.cc(158)] Connection InterfaceProviderSpec prevented service: content_plugin from binding interface: memory_instrumentation::mojom::Coordinator exposed by: content_browser
+
+Jul 17, 2017 16:15:01.67 NEW SESSION
+Jul 17, 2017 16:15:01.67 [Child 10160] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 16:15:01.70 [Child 10160] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 16:15:01.91 
+Jul 17, 2017 16:15:01.91 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 17, 2017 16:15:01.91 
+
+Jul 17, 2017 17:16:49.58 NEW SESSION
+Jul 17, 2017 17:16:49.58 [GPU 4568] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 17:16:49.71 [Child 6912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 17:16:49.71 [Child 6912] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 17:16:50.92 
+Jul 17, 2017 17:16:50.93 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 17, 2017 17:16:50.93 
+Jul 17, 2017 17:23:30.49 [GPU 952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 17:23:30.52 [GPU 952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 17:23:30.64 [Child 5200] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 17:23:31.78 
+Jul 17, 2017 17:23:31.78 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 17, 2017 17:23:31.78 
+
+Jul 17, 2017 19:21:46.55 NEW SESSION
+Jul 17, 2017 19:21:46.55 [Child 8128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:21:46.60 [Child 8128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:22:20.49 [GPU 1304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:22:20.52 [GPU 1304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:24:00.24 [GPU 1304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:24:01.90 [GPU 1304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:24:01.93 [GPU 1304] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:24:07.88 [NPAPI 11152] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 17, 2017 19:24:08.15 
+Jul 17, 2017 19:24:08.15 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 17, 2017 19:24:08.15 

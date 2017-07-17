@@ -1,0 +1,60 @@
+<style>
+.middle {
+	border: 1px solid white;
+	background-color: #d6d6c2;
+	padding-top: 50px;
+	padding-right: 50px;
+	padding-bottom: 80px;
+	padding-left: 40px;
+	margin-left: 450px;
+	margin-right: 450px;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+</style>
+
+<div class="middle" style="margin-top: 80px;">
+	<h2>
+		<u>Login</u>
+	</h2>
+
+	<div class="imgcontainer">
+		<img src="images/av6.png" alt="Avatar" class="avatar">
+	</div>
+
+
+	<form>
+	<div align="center">
+		<div class="row">
+			<div class="form-group col-xs-12">
+				<label><b>Username</b></label> <input type="text"
+					ng-model="user.username" placeholder="Enter Username"
+					class="form-control input-lg" required>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="form-group col-xs-12">
+				<label><b>Password</b></label> <input type="password"
+					ng-model="user.password" placeholder="Enter Password"
+					class="form-control input-lg" required>
+			</div>
+		</div>
+		<span style="color: green;">{{message}}</span>
+		<span style="color: red;">{{error.message}}</span>
+	        <!--       {{registrationSuccess}} -->
+	        <br>
+			<button type="submit" value="login" ng-click="login()"
+				class="btn btn-success">Submit</button>
+		</div>
+		<!--  <input type="submit" value="login" ng-click="login()"> -->
+	</form>
+</div>
