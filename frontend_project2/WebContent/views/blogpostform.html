@@ -1,4 +1,42 @@
+<link href="css/registrationform.css" media="all" rel="stylesheet"
+	type="text/css" />
 
+
+<div style="background-image: url('images/Blog1.jpg');">
+<div class="middle"
+	style="margin-top: 60px; background-image: url('images/Blog1.jpg');">
+<h2 align="center">Post Blog Here</h2>
+	<form>
+		<div align="center">
+			<div class="row">
+				<div class="form-group col-xs-12">
+					<label><b><big>Blog Title</big></b></label> <input
+						ng-model="blogPost.title" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Title For Your Blog"
+						class="form-control input-lg">
+				</div>
+			</div>
+             <br><br>
+			<div class="row">
+				<label><big><b>Blog Description</b></big></label>
+				<textarea ng-model="blogPost.description"
+					 class="form-control input-lg" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Blog Description"></textarea>
+
+			</div>
+                  <br><br>
+		<div class="row">
+				<button class="btn btn-warning btn-lg" ng-click="saveBlogPost()"><b><big>Post
+					Blog</big></b></button>
+		</div>
+		<br><br><br><br><br><br><br><br><br>
+	</form>
+
+
+
+
+</div>
+</div>
+
+<!-- 
 <form>
 <table>
 
@@ -23,4 +61,4 @@
 
 
 
-</form>
+</form> -->

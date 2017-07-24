@@ -1,0 +1,42 @@
+
+<link href="css/login.css" media="all" rel="stylesheet" type="text/css" />
+
+<div style="background-image: url('images/oddo.jpg');">
+<div class="middle" style="margin-top: 80px;background-image: url('images/green.png');">
+	<h2 align="center" style="color: white;">
+		<b><big>Login</big></b>
+	</h2>
+
+	<div class="imgcontainer">
+		<img src="images/av6.png" alt="Avatar" class="avatar">
+	</div>
+
+
+	<form>
+		<div align="center">
+			<div class="row">
+				<div class="form-group col-xs-12">
+					<label style="color: white;"><b><big>Username</big></b></label> <input type="text"
+						ng-model="user.username" placeholder="Enter Username"
+						class="form-control input-lg" required>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-xs-12">
+					<label style="color: white;"><big><b>Password</b></big></label> <input type="password"
+						ng-model="user.password" placeholder="Enter Password"
+						class="form-control input-lg" required>
+				</div>
+			</div>
+			<span style="color: green;background-color: white;"><b><big>{{message}}</big></b></span> <span
+				style="color: red;background-color: white;"><b><big>{{error.message}}</big></b></span>
+			<!--       {{registrationSuccess}} -->
+			<br>
+			<button type="submit" value="login" ng-click="login()"
+				class="btn btn-success btn-lg">Login</button>
+		</div>
+		<!--  <input type="submit" value="login" ng-click="login()"> -->
+	</form>
+</div>
+</div>

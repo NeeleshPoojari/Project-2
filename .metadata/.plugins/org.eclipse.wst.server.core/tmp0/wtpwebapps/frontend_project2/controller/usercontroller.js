@@ -7,6 +7,7 @@ app.controller('UserController',function(UserService,$scope,$location,$rootScope
 		console.log("Entering register function")
 		UserService.registerUser($scope.user).then(function(response){
 		$scope.registrationSuccess="Registered Successfully..please login"
+			alert('Registered Successfully..please login')
 		$location.path('/login')				
 		},function(response){
 			$scope.error=response.data;
@@ -20,6 +21,7 @@ app.controller('UserController',function(UserService,$scope,$location,$rootScope
 			$location.path('/home')
 			
 			},function(response){
+			$scope.message=''
 			$scope.error=response.data
 			$location.path('/login')		
 		})	
@@ -27,6 +29,7 @@ app.controller('UserController',function(UserService,$scope,$location,$rootScope
 	
 	$scope.user=UserService.getUserByUsername().then(function(response){
 		$scope.user=response.data;
+		 $scope.message=''
 		},function(response){
 		console.log(response.status);
 			

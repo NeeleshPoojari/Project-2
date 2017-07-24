@@ -1,0 +1,27 @@
+
+
+
+.navbar-default {
+	/* background-color: #e93679; */
+	border-color: #000000;
+	border-radius: 0;
+     
+}
+
+.nav.navbar-nav>li>a {
+	color: #fff;
+	font-size: medium;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.droplist{
+	
+	font-size: large;
+	font-family: monospace;
+	font-weight: bold; 
+	
+}
+.nav > li > a:hover{
+    background-color:#ff0000;
+}

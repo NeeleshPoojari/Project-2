@@ -6,7 +6,7 @@ app.controller('JobController',function($scope,$location,JobService){
 	$scope.message=''
 	
 	function getAllJobs(){
-	$scope.jobs=JobService.getAllJobs().then(function(response){
+   JobService.getAllJobs().then(function(response){
 	 $scope.jobs=response.data;
 	 	
 	},function(response){
@@ -21,6 +21,7 @@ app.controller('JobController',function($scope,$location,JobService){
 	
 		JobService.saveJob($scope.job).then(function(response){
 		getAllJobs();
+		    alert('Job inserted successfully..!')
 			$location.path('/getalljobs')	
 		},function(response){
 			$scope.message=response.data.message

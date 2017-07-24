@@ -1,14 +1,66 @@
-<div>
+
+<link href="css/login.css" media="all" rel="stylesheet" type="text/css" />
+
+<div style="background-image: url('images/green-stars.jpg');">
+<div class="middle" style="margin-top: 70px;background-image: url('images/oddo.jpg');">
+	<h2 align="center" style="font-size:xx-large;">
+		<b>Login</b>
+	</h2>
+	
+
+	<div class="imgcontainer">
+		<img src="images/av6.png" alt="Avatar" class="avatar">
+	</div>
+
+
+	<form>
+		<div align="center">
+			<div class="row">
+				<div class="form-group col-xs-12">
+					<label><b><big>Username</big></b></label> <input type="text"
+						ng-model="user.username" placeholder="Enter Username"
+						class="form-control input-lg" required>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="form-group col-xs-12">
+					<label><big><b>Password</b></big></label> <input type="password"
+						ng-model="user.password" placeholder="Enter Password"
+						class="form-control input-lg" required>
+				</div>
+			</div>
+			<span style="color: green;background-color: white;"><b><big>&nbsp;{{message}}&nbsp;</big></b></span> <span
+				style="color: red;background-color: white;"><b><big>&nbsp;{{error.message}}&nbsp;</big></b></span>
+			      {{registrationSuccess}}
+			<br>
+			<button type="submit" value="login" ng-click="login()"
+				class="btn btn-success btn-lg">Login</button>
+		</div>
+		 <input type="submit" value="login" ng-click="login()">
+	</form>
+</div>
+</div>
+
+
+<!-- <div style="margin-top: 80px;"> 
 	
 	{{registrationSuccess}}
 	{{message}}
 	{{error.message}}
-	<form>
-		Enter Username:<input type="text" ng-model="user.username" placeholder="Enter Username" >
+	<form name="loginForm" novalidate>
+		Enter Username:<input type="text" name="username" ng-model="user.username" placeholder="Enter Username" required>
+		<p ng-show="loginForm.username.$invalid && !loginForm.username.$printsline" >Cannot  be blank</p>
 		<br>
 		Enter Password:<input type="password" ng-model="user.password" placeholder="Enter Password"> 
+		<p ng-show="loginForm.password.$invalid && loginForm.password.$dirty" >Cannot  be blank</p>
 		<br>
 		
 		              <input type="submit" value="login" ng-click="login()">
 	</form>
-</div>
+</div> -->
+
+
+
+
+

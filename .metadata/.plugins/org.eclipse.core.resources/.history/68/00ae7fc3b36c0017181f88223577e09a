@@ -1,0 +1,94 @@
+<!-- <form>
+	Enter Job Title <input type="text" ng-model="job.jobTitle"><br>
+	Enter Job Description
+	<textarea ng-model="job.jobDescription"></textarea>
+	<br> Enter Years Of Experience <input type="text"
+		ng-model="job.yrsOfExp"><br> Enter Salary <input
+		type="text" ng-model="job.salary"><br> Enter Skills
+	Required <input type="text" ng-model="job.skillsRequired"><br>
+	Enter Location <input type="text" ng-model="job.location"><br>
+	Enter Company Name <input type="text" ng-model="job.companyName"><br>
+
+	<input type="submit" value="saveJob" ng-click="saveJob()">
+</form>
+ -->
+
+<link href="css/registrationform.css" media="all" rel="stylesheet"
+	type="text/css" />
+
+
+<div style="background-image: url('images/down1.png');">
+	<div class="Container">
+		<div class="middle"
+			style="margin-top: 60px; background-image: url('images/down1.png');">
+
+			<h2 align="center" style="color: white;">
+				<b><big>Register</big></b>
+			</h2>
+
+
+
+			<form>
+				<div align="center">
+					<div class="row">
+						<div class="form-group col-xs-6">
+							<label  style="color: white;"><b><big>Job Title</big></b></label> <input
+								ng-model="job.jobTitle"
+								placeholder="Enter Job Title"
+								class="form-control input-lg">
+						</div>
+
+						<div class="form-group col-xs-6">
+							<label style="color: white;"><b><big>Company
+										Name</big></b></label> <input type="text" ng-model="job.companyName"
+								placeholder="Enter Company Name" class="form-control input-lg"
+								required>
+						</div>
+					</div>
+				
+					<div class="row">
+						<label  style="color: white;"><big><b>Job Description</b></big></label>
+						<textarea ng-model="job.jobDescription"
+							class="form-control input-lg"
+							placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter Job Description"></textarea>
+
+					</div>
+
+					<div class="row">
+						<div class="form-group col-xs-6">
+							<label style="color: white;"><b><big>Experiance</big></b></label>
+							<input type="text" ng-model="job.yrsOfExp"
+								placeholder="Enter years of experiance required"
+								class="form-control input-lg" required>
+						</div>
+
+
+						<div class="form-group col-xs-6">
+							<label style="color: white;"><b><big>Salary</big></b></label> <input
+								type="text" ng-model="job.salary" placeholder="Enter Salary"
+								class="form-control input-lg" required>
+						</div>
+
+					</div>
+
+
+					<div class="row">
+						<div class="form-group col-xs-6">
+							<label style="color: white;"><b><big>Skills</big></b></label> <input
+								type="text" ng-model="job.skillsRequired"
+								placeholder="Enter Skills Required"
+								class="form-control input-lg" required>
+						</div>
+
+
+						<div class="form-group col-xs-6">
+							<label style="color: white;"><b><big>Job
+										Location</big></b></label> <input type="text" ng-model="job.location"
+								placeholder="Enter Location" class="form-control input-lg"
+								required>
+						</div>
+                      </div>
+                      <button type="submit" ng-click="saveJob()" class="btn btn-success btn-lg"><b style="color: white;"><big>Post Job</big></button>
+					</div>
+			</form>
+			</div></div></div>

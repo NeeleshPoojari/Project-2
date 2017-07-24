@@ -269,3 +269,508 @@ Jul 17, 2017 19:24:07.88 [NPAPI 11152] WARNING: pipe error: 109: file c:/builds/
 Jul 17, 2017 19:24:08.15 
 Jul 17, 2017 19:24:08.15 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 Jul 17, 2017 19:24:08.15 
+
+Jul 18, 2017 21:16:05.10 NEW SESSION
+Jul 18, 2017 21:16:05.10 console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+Jul 18, 2017 21:54:39.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:54:59.21 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:01.80 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:02.18 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:02.21 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:04.96 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:09.53 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:09.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 21:55:10.14 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:01:57.54 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:27.61 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:37.17 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:38.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:38.76 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:39.18 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:39.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:40.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:40.04 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:40.10 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:40.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:42.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:45.04 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:02:57.79 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:03:27.57 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:32.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:32.80 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:32.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:32.83 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:33.02 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:33.10 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:35.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:35.54 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:39.16 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:39.31 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:39.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:39.69 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:43.08 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:04:53.06 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:05.04 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:35.07 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:56.04 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:56.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:56.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:57.43 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.46 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.68 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.71 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.74 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:58.78 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:59.27 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:12:59.55 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:13:05.36 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:13:05.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:13:05.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:13:34.01 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:13:35.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:14.60 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:17.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:28.76 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:28.87 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:29.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:29.17 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:29.19 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:29.30 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:29.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:29.34 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:31.90 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:31.92 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:36.14 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:36.43 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:36.78 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:41.83 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:49.81 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:51.35 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:52.90 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:53.02 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:53.10 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:53.26 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:53.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:14:58.95 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:15:04.14 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:00.44 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:30.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:52.41 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:52.52 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:54.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:54.11 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:54.52 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:54.75 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:55.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:55.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:55.35 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:26:55.36 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:27:00.09 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:27:00.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:27:00.61 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:27:30.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:07.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:07.14 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:07.17 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:07.20 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:07.30 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:07.32 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:09.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:09.92 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:09.93 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:11.41 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:11.65 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:12.70 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:14.24 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:16.71 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:16.83 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:17.16 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:19.29 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:20.96 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:21.11 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:21.38 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:21.45 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:26.13 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:29.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:29.64 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:29.76 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:30.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:31.10 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:31.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:46.09 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:46.47 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:47.57 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:47.64 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:49.00 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:49.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:54.75 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:54.88 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:54.90 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:56.54 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:56.70 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:58.88 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:59.48 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:59.64 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:59.76 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:59.77 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:28:59.92 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:29:00.09 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:33:30.35 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:00.40 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:12.84 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:12.91 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:12.92 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:12.94 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:13.70 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:14.50 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:14.67 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:14.99 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:15.15 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:15.39 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:15.56 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:15.57 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:15.71 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:15.82 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:16.05 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:16.21 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:22.73 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:24.20 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:24.92 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:25.06 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:25.12 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:25.28 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:26.81 [GPU 8588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 18, 2017 22:34:26.81 [GPU 8588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 18, 2017 22:34:26.99 [GPU 8588] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 18, 2017 22:34:27.34 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:27.39 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:27.42 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:27.44 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:27.49 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:27.63 
+Jul 18, 2017 22:34:27.63 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C008F,name=PBrowser::Msg_UpdateNativeWindowHandle) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:27.63 
+Jul 18, 2017 22:34:27.64 
+Jul 18, 2017 22:34:27.64 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.64 
+Jul 18, 2017 22:34:27.64 
+Jul 18, 2017 22:34:27.64 ###!!! [Parent][MessageChannel] Error: (msgtype=0x2C0082,name=PBrowser::Msg_Destroy) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:27.64 
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 
+Jul 18, 2017 22:34:27.65 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.66 
+Jul 18, 2017 22:34:27.66 
+Jul 18, 2017 22:34:27.66 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.66 
+Jul 18, 2017 22:34:27.66 
+Jul 18, 2017 22:34:27.66 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.66 
+Jul 18, 2017 22:34:27.66 
+Jul 18, 2017 22:34:27.66 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.67 
+Jul 18, 2017 22:34:27.67 
+Jul 18, 2017 22:34:27.67 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.67 
+Jul 18, 2017 22:34:27.67 
+Jul 18, 2017 22:34:27.67 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.67 
+Jul 18, 2017 22:34:27.68 
+Jul 18, 2017 22:34:27.68 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.68 
+Jul 18, 2017 22:34:27.68 
+Jul 18, 2017 22:34:27.68 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 
+Jul 18, 2017 22:34:27.69 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.70 
+Jul 18, 2017 22:34:27.70 
+Jul 18, 2017 22:34:27.70 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.70 
+Jul 18, 2017 22:34:27.70 
+Jul 18, 2017 22:34:27.70 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.70 
+Jul 18, 2017 22:34:27.71 
+Jul 18, 2017 22:34:27.71 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.71 
+Jul 18, 2017 22:34:27.71 
+Jul 18, 2017 22:34:27.71 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.71 
+Jul 18, 2017 22:34:27.71 
+Jul 18, 2017 22:34:27.72 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.72 
+Jul 18, 2017 22:34:27.72 
+Jul 18, 2017 22:34:27.72 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.72 
+Jul 18, 2017 22:34:27.74 
+Jul 18, 2017 22:34:27.75 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.75 
+Jul 18, 2017 22:34:27.75 
+Jul 18, 2017 22:34:27.75 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.75 
+Jul 18, 2017 22:34:27.75 
+Jul 18, 2017 22:34:27.75 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.75 
+Jul 18, 2017 22:34:27.76 
+Jul 18, 2017 22:34:27.76 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:27.76 
+Jul 18, 2017 22:34:28.62 
+Jul 18, 2017 22:34:28.62 ###!!! [Child][MessageChannel] Error: (msgtype=0x900016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.62 
+Jul 18, 2017 22:34:28.63 
+Jul 18, 2017 22:34:28.63 ###!!! [Child][MessageChannel] Error: (msgtype=0x900016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.63 
+Jul 18, 2017 22:34:28.63 
+Jul 18, 2017 22:34:28.63 ###!!! [Child][MessageChannel] Error: (msgtype=0x900016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.63 
+Jul 18, 2017 22:34:28.63 
+Jul 18, 2017 22:34:28.63 ###!!! [Child][MessageChannel] Error: (msgtype=0x900016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.63 
+Jul 18, 2017 22:34:28.72 
+Jul 18, 2017 22:34:28.72 ###!!! [Child][MessageChannel] Error: (msgtype=0x900016,name=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.72 
+Jul 18, 2017 22:34:28.78 
+Jul 18, 2017 22:34:28.78 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400CA,name=PContent::Msg_GraphicsError) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.78 
+Jul 18, 2017 22:34:28.79 [GFX1-]: ClientLayerManager::BeginTransaction with IPC channel down. GPU process may have died.
+Jul 18, 2017 22:34:28.80 
+Jul 18, 2017 22:34:28.80 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.80 
+Jul 18, 2017 22:34:28.81 
+Jul 18, 2017 22:34:28.81 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.82 
+Jul 18, 2017 22:34:28.82 
+Jul 18, 2017 22:34:28.82 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.82 
+Jul 18, 2017 22:34:28.82 
+Jul 18, 2017 22:34:28.82 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.82 
+Jul 18, 2017 22:34:28.83 
+Jul 18, 2017 22:34:28.83 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.83 
+Jul 18, 2017 22:34:28.83 
+Jul 18, 2017 22:34:28.83 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.83 
+Jul 18, 2017 22:34:28.83 
+Jul 18, 2017 22:34:28.83 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.83 
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.84 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.84 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.84 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.84 
+Jul 18, 2017 22:34:28.85 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.85 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.85 
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 
+Jul 18, 2017 22:34:28.86 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.87 
+Jul 18, 2017 22:34:28.88 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 
+Jul 18, 2017 22:34:28.88 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400AB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.89 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.89 
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.91 ###!!! [Child][MessageChannel] Error: (msgtype=0x900029,name=PNecko::Msg_DecreaseThrottlePressure) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.91 
+Jul 18, 2017 22:34:28.92 
+Jul 18, 2017 22:34:28.92 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.92 
+Jul 18, 2017 22:34:28.93 
+Jul 18, 2017 22:34:28.93 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0038,name=PBrowser::Msg_SetStatus) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.93 
+Jul 18, 2017 22:34:28.94 
+Jul 18, 2017 22:34:28.94 ###!!! [Child][MessageChannel] Error: (msgtype=0x900029,name=PNecko::Msg_DecreaseThrottlePressure) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.94 
+Jul 18, 2017 22:34:28.95 
+Jul 18, 2017 22:34:28.95 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.95 
+Jul 18, 2017 22:34:28.95 
+Jul 18, 2017 22:34:28.95 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.96 
+Jul 18, 2017 22:34:28.97 
+Jul 18, 2017 22:34:28.97 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0038,name=PBrowser::Msg_SetStatus) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.97 
+Jul 18, 2017 22:34:28.97 
+Jul 18, 2017 22:34:28.97 ###!!! [Child][MessageChannel] Error: (msgtype=0x900029,name=PNecko::Msg_DecreaseThrottlePressure) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.97 
+Jul 18, 2017 22:34:28.98 
+Jul 18, 2017 22:34:28.98 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.98 
+Jul 18, 2017 22:34:28.98 
+Jul 18, 2017 22:34:28.98 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.98 
+Jul 18, 2017 22:34:28.99 
+Jul 18, 2017 22:34:28.99 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:28.99 
+Jul 18, 2017 22:34:29.00 
+Jul 18, 2017 22:34:29.00 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.00 
+Jul 18, 2017 22:34:29.00 
+Jul 18, 2017 22:34:29.01 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.01 
+Jul 18, 2017 22:34:29.01 
+Jul 18, 2017 22:34:29.01 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.01 
+Jul 18, 2017 22:34:29.02 
+Jul 18, 2017 22:34:29.02 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.02 
+Jul 18, 2017 22:34:29.02 
+Jul 18, 2017 22:34:29.02 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.02 
+Jul 18, 2017 22:34:29.02 
+Jul 18, 2017 22:34:29.02 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.02 
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x900029,name=PNecko::Msg_DecreaseThrottlePressure) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.03 
+Jul 18, 2017 22:34:29.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 
+Jul 18, 2017 22:34:29.04 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0023,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x900029,name=PNecko::Msg_DecreaseThrottlePressure) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 
+Jul 18, 2017 22:34:29.05 ###!!! [Child][MessageChannel] Error: (msgtype=0x44008F,name=PContent::Msg_StartVisitedQuery) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.06 
+Jul 18, 2017 22:34:29.06 
+Jul 18, 2017 22:34:29.06 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.06 
+Jul 18, 2017 22:34:29.06 
+Jul 18, 2017 22:34:29.06 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.06 
+Jul 18, 2017 22:34:29.07 
+Jul 18, 2017 22:34:29.07 ###!!! [Child][MessageChannel] Error: (msgtype=0x2C0001,name=PBrowser::Msg_AsyncMessage) Closed channel: cannot send/recv
+Jul 18, 2017 22:34:29.07 
+Jul 18, 2017 22:34:29.12 
+Jul 18, 2017 22:34:29.12 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+Jul 18, 2017 22:34:29.12 
+Jul 18, 2017 22:37:46.15 [GPU 1108] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 18, 2017 22:37:46.20 [Child 2904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Jul 18, 2017 22:37:46.20 [Child 2904] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w32-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346

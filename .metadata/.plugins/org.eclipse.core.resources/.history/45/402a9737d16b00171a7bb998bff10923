@@ -1,0 +1,67 @@
+<link href="css/registrationform.css" media="all" rel="stylesheet"
+	type="text/css" />
+
+<div class="middle"
+	style="margin-top: 60px; background-image: url('images/blog28.png');">
+	<div class="row">
+		<div>
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div style="font-family: monospace; font-size: x-large;">
+						<strong>Title:{{blogPost.title}}</strong>
+					</div>
+					<span style="font-family: monospace; font-size: large;"><strong>Created
+							By:</strong>{{blogPost.createdBy.username}}</span> <span
+						style="font-family: monospace; font-size: large;"><strong>&nbsp;&nbsp;&nbsp;On:</strong>{{blogPost.postedOn
+						| date:'medium'}}</span>
+
+				</div>
+				<div class="panel-body"
+					style="font-size: medium; font-style: italic;">{{blogPost.description}}</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- 	<form>
+		<textarea rows="3" cols="20" ng-model="blogComment.body"></</textarea>
+		<div>
+			<button ng-click="addComment()">PostComment</button>
+		</div>
+	</form> -->
+
+	<form>
+		<div class="row">
+
+			<textarea ng-model="blogComment.body" class="form-control input-lg"
+				placeholder="Comment Here what is in your mind"></textarea>
+
+		</div>
+
+		<div class="row" align="center">
+			<button class="btn btn-info btn-sm" ng-click="addComment()">
+				<b><big>Post Comment</big></b>
+			</button>
+		</div>
+
+	</form>
+
+	<div class="row">
+		<a href="" ng-click="getBlogComments(blogPost.id)"><span
+			class="glyphicon glyphicon-comment"
+			style="color: white; font-size: medium;"><strong>Comments</strong></span></a>
+		<ul ng-show="showComments">
+			<li ng-repeat="comment in blogComments" style="list-style: none;">
+				<div>
+					<h5 style="color: white; background-color: #00bbea;">
+						<strong>{{comment.body}} </strong><span><strong>&nbsp;&nbsp;Commented
+								By&nbsp;&nbsp;</strong><strong>{{comment.commentedBy.username}}<strong></span>
+						<span><strong>&nbsp;&nbsp;Commented On&nbsp;</strong><strong>{{comment.commentedOn
+								| date:'MM/dd/yyyy'}}</strong></span>
+					</h5>
+
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>

@@ -7,12 +7,14 @@
 <link
 	href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
 	rel="stylesheet" />
+	<link href="css/custom.css" media="all" rel="stylesheet"
+	type="text/css" />
 <title>Insert title here</title>
 </head>
-<body ng-app="myApp">
+<body ng-app="myApp" style="background-image: url('images/green-stars.jpg');" >
 
 <header>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-fixed-top navbar-default" >
 
 <div class="container-fluid">
 <button type="button" class="navbar-toggle collapsed"
@@ -23,49 +25,70 @@ data-toggle="collapse" data-target="#collapse-example" aria-expanded="false">
 <span class="icon-bar"></span>
 </button>
 
+
+
+
 <div class="navbar-header">
-<a class="navbar-brand" href="/">NKP</a>
+<a class="navbar-brand" href="#/home" style="background-color: red;color: white;font-family: monospace;font-weight: bold;"><span class="glyphicon glyphicon-flag"></span>funTalk</a>
 </div>
 <div class="collapse navbar-collapse" id="collapse-example">
 <ul class="nav navbar-nav ">
-<li><a href="#/registration" ng-hide="currentUser.firstname">Register</a></li>
-<li><a href="#/login" ng-hide="currentUser.firstname">login</a></li>
+
+
+
+
+<li><a href="#/home"> <span class="glyphicon glyphicon-home"></span> Home</a>
+                
+                
+<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username"><span class="glyphicon glyphicon-briefcase"></span> Jobs<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="droplist"><a href="#/savejob" ng-show="currentUser.role=='Admin'"><span class="glyphicon glyphicon-upload"></span><b> Save Job Details</b></a>
+<li class="droplist"><a href="#/getalljobs" ng-show="currentUser.firstname"><span class="glyphicon glyphicon-eye-open"></span><b> Get All Jobs</b></a>
+</ul></li>
+
+
+
+<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username"><span class="glyphicon glyphicon-book"></span> Blog<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="droplist"><a href="#/getallblogs"><span class="glyphicon glyphicon-eye-open"></span><b> View all blogs</b></a></li>
+<li class="droplist"><a href="#/saveblogpost"><span class="glyphicon glyphicon-upload"></span><b> Post</b></a></li>
+</ul></li>
+
+<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username"><span class="glyphicon glyphicon-sunglasses"></span> Friends<b class="caret"></b></a>
+<ul class="dropdown-menu">
+<li class="droplist"><a href="#/suggestedusers"><span class="glyphicon glyphicon-eye-open"></span><b> Suggested users</b></a></li>
+<li class="droplist"><a href="#/pendingrequests"><span class="glyphicon glyphicon-eye-open"></span><b> Pending requests</b></a></li>
+<li class="droplist"><a href="#/listoffriends"><span class="glyphicon glyphicon-eye-open"></span><b> Friends List</b></a></li>
+</ul></li>
+
+
+<li><a href="#/chat" ng-show="currentUser.username"><span class="glyphicon glyphicon-phone"></span> Chat</a></li>
+
+</ul>
+
+<ul class="nav navbar-nav navbar-right">
 
 
  <li><a href="#/profilepic" ng-show="currentUser.username">
-                    <img src="http://localhost:8080/backend_project2/getimage/{{currentUser.username}}" alt="upload Picture" width="30px" height="30px" class="img-rounded">
+                    <img src="http://localhost:8080/backend_project2/getimage/{{currentUser.username}}" alt="upload Picture" width="30px" height="20px" class="img-rounded">
                     </a></li>
 
-
-
-
-
-
-<li><a href="#/savejob" ng-show="currentUser.role=='Admin'">Save Job Details</a>
-<li><a href="#/getalljobs" ng-show="currentUser.firstname">GetAllJobs</a>
-<li><a href="#/edituserprofile"  ng-show="currentUser.firstname">Edit Profile</a></li>
-
-<!-- <li><a href="#saveblogpost" ng-show="currentUser.firstname">Post a Blog</a></li> -->
 <li><a href="" ng-show="currentUser.firstname">Welcome {{currentUser.firstname}} {{currentUser.lastname}}</a></li>
 
-<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username">Blog<b class="caret"></b></a>
+
+
+                    
+<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username"><span class="glyphicon glyphicon-user"></span> Profile<b class="caret"></b></a>
 <ul class="dropdown-menu">
-<li><a href="#/getallblogs">View all blogs</a></li>
-<li><a href="#/saveblogpost">Post</a></li>
+<li class="droplist"><a href="#/myprofile"><span class="glyphicon glyphicon-user"></span><b> My Profile</b></a>
+<li class="droplist"><a href="#/edituserprofile"  ng-show="currentUser.firstname"><span class="glyphicon glyphicon-edit"></span><b> Edit Profile</b></a></li>
 </ul></li>
 
-<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" ng-show="currentUser.username">Friend<b class="caret"></b></a>
-<ul class="dropdown-menu">
-<li><a href="#/suggestedusers">List of Suggested users</a></li>
-<li><a href="#/pendingrequests">Pending requests</a></li>
-<li><a href="#/listoffriends">Friends List</a></li>
-</ul></li>
+<li><a href="#/registration" ng-hide="currentUser.firstname"><span class="glyphicon glyphicon-user"></span> Sign up</a></li>
 
+<li><a href="#/login" ng-hide="currentUser.firstname"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 
-
-
-
-<li><a href="" ng-click="logout()" ng-show="currentUser.firstname">logout</a></li>
+<li><a href="" ng-click="logout()" ng-show="currentUser.firstname"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
 
 
 
@@ -75,7 +98,7 @@ data-toggle="collapse" data-target="#collapse-example" aria-expanded="false">
 
 </nav>
 </header>
-<div ng-view></div>
+<div ng-view ></div>
 </body>
 <script type="text/javascript"
 src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
@@ -85,6 +108,9 @@ src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></s
 
 <script type="text/javascript"
 src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-cookies.js"></script>
+
+
+
 
 <!-- BootStrap -->
 <!-- <script type="text/javascript"
@@ -107,7 +133,9 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></scri
 <script type="text/javascript" src="controller/blogdetailcontroller.js"></script>
 <script type="text/javascript" src="service/friendservice.js"></script>
 <script type="text/javascript" src="controller/friendcontroller.js"></script>
-
-
+<script src="js/sockjs/sockjs.js"></script>
+<script src="js/stomp/dist/stomp.js"></script>
+<script type="text/javascript" src="controller/chatcontroller.js"></script>
+<script type="text/javascript" src="service/chatservice.js"></script>
 
 </html> 

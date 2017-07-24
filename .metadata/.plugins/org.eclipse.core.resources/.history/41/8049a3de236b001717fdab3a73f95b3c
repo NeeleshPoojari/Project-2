@@ -1,0 +1,95 @@
+<link href="css/registrationform.css" media="all" rel="stylesheet" type="text/css" />
+
+
+<div style="background-image: url('images/oddo2.jpg');">
+<div class="Container">
+	<div class="middle" style="margin-top: 60px;background-image: url('images/full.jpg');">
+
+		<h2 align="center" style="color: white;" ><b><big>Register</big></b></h2>
+		<form>
+			<div align="center">
+				<div class="row">
+					<div class="form-group col-xs-6">
+						<label style="color: white;"><b><big>Firstname</big></b></label> <input type="text"
+							ng-model="user.firstname" placeholder="Enter Firstname"
+							class="form-control input-lg" required>
+					</div>
+
+
+					<div class="form-group col-xs-6">
+						<label style="color: white;"><b><big>Lastname</big></b></label> <input type="text"
+							ng-model="user.lastname" placeholder="Enter Lastname"
+							class="form-control input-lg" required>
+					</div>
+
+				</div>
+			</div>
+
+			<div align="center">
+				<div class="row">
+					<div class="form-group col-xs-6">
+						<label style="color: white;"><b><big>Email</big></b></label> <input type="text"
+							ng-model="user.email" placeholder="Enter Email"
+							class="form-control input-lg" required>
+					</div>
+
+
+					<div class="form-group col-xs-6">
+						<label style="color: white;"><b><big>Username</big></b></label> <input type="text"
+							ng-model="user.username" placeholder="Enter Username"
+							class="form-control input-lg" required>
+					</div>
+
+				</div>
+			</div>
+
+
+			<div align="center">
+				<div class="row">
+					<div class="form-group col-xs-6">
+						<label style="color: white;"><b><big>Password</big></b></label> <input type="password"
+							ng-model="user.password" placeholder="Enter Password"
+							class="form-control input-lg" required>
+					</div>
+
+
+					<div class="form-group col-xs-6">
+						<label style="color: white;"><b><big>Confirm password</big></b></label> <input type="password"
+							placeholder="Confirm Password" class="form-control input-lg"
+							required>
+					</div>
+
+				</div>
+			</div>
+
+			<div align="center">
+				<label style="color: white;"><b><big>Select Role</big></b></label><br>
+				<div class="row">
+					<input type="radio" ng-model="user.role" value="Student"><b style="color: white;"><big>Student</big></b>
+					<input type="radio" ng-model="user.role" value="Alumini"><b style="color: white;"><big>Alumini</big></b>
+					<input type="radio" ng-model="user.role" value="Employee"><bstyle="color: white;"><big>Employee</big></b>
+				</div>
+				<br>
+				<button type="submit" ng-click="register()" class="btn btn-success btn-lg"><b style="color: white;"><big>Register</big></button>
+			</div>
+
+			<!-- 
+
+		Enter Firstname:<input type="text" ng-model="user.firstname"><br>
+		Enter Lastname:<input type="text" ng-model="user.lastname"><br>
+		Enter Email:<input type="text" ng-model="user.email"><br>
+		Enter Username:<input type="text" ng-model="user.username"><br>
+		Enter Password:<input type="password" ng-model="user.password"><br>
+
+		Select Role<input type="radio" ng-model="user.role" value="Student">Student<br>
+		<input type="radio" ng-model="user.role" value="Alumini">Alumini<br>
+		<input type="radio" ng-model="user.role" value="Employee">Employee<br>
+
+		<input type="submit" ng-click="register()"><br>
+		 -->
+
+
+		</form>
+	</div>
+</div>
+</div>

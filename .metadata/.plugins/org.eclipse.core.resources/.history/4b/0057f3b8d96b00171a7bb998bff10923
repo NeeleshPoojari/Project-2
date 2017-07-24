@@ -1,0 +1,48 @@
+<link href="css/registrationform.css" media="all" rel="stylesheet"
+	type="text/css" />
+<div style="background-image: url('images/app2.jpg');">
+<div class="middle"
+	style="margin-top: 60px; background-image: url('images/app2.jpg');">
+           
+            <h2 align="center">Approve Blog Here</h2>
+
+<div class="row">
+<div>
+<div class="panel panel-default">
+<div class="panel-heading">
+
+<div style="font-family: monospace; font-size: x-large;">
+						<strong>Title:{{blogPost.title}}</strong>
+					</div>
+
+
+<span style="font-family: monospace; font-size: large;"><strong>Created
+							By:</strong>{{blogPost.createdBy.username}}</span> <span
+						style="font-family: monospace; font-size: large;"><strong>&nbsp;&nbsp;&nbsp;On:</strong>{{blogPost.postedOn
+						| date:'medium'}}</span>
+
+</div>
+
+<div class="panel-body" style="font-size: medium; font-style: italic;">
+{{blogPost.description}}
+</div>
+
+</div>
+
+</div>
+</div>
+<form>
+
+<div class="row" align="center">
+<input type="radio" ng-model="blogPost.approved" value="true"><strong style="font-size: medium;color: green;">Approve</strong><br>
+<input type="radio" ng-model="blogPost.approved" value="false"><strong style="font-size: medium;color: red;">Reject</strong><br>
+<!-- <button ng-click="updateApproval()">Update Approval</button> -->
+
+
+			<button class="btn btn-info btn-sm" ng-click="updateApproval()">
+				<b><big>Update Approval</big></b>
+			</button>
+		</div>
+</form>
+</div>
+</div>

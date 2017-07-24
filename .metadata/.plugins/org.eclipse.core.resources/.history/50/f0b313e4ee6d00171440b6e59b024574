@@ -1,0 +1,50 @@
+
+<link href="css/tablecolor.css" media="all" rel="stylesheet" type="text/css" />
+
+
+<!-- 
+<div class="container" style="margin-top: 60px;">
+<h1 align="center" style="font-weight: bold;font-family: monospace;color: white;">Friends</h1>
+<table class="table" style="font-weight: bold;font-size:large;color: white; ">
+<tr ng-repeat="f in friendsList">
+
+<td ng-hide="currentUser.username==f.fromId">
+<img src="http://localhost:8080/backend_project2/getimage/{{f.fromId}}" alt="Picture Not Available" width="60px" height="60px" class="img-rounded">
+<span ng-hide="currentUser.username==f.fromId" style="font-size: xx-large;"><strong>{{f.fromId}}</strong></span>
+</td>
+<td ng-hide="currentUser.username==f.toId">
+<img src="http://localhost:8080/backend_project2/getimage/{{f.toId}}" alt="Picture Not Available" width="60px" height="60px" class="img-rounded">
+<span ng-hide="currentUser.username==f.toId" style="font-size: xx-large;"><strong>{{f.toId}}</strong></span>
+</td>
+
+
+
+
+
+</table>
+
+</div> -->
+
+<div class="container" style="margin-top:80px;">
+
+<div class="alert alert-warning" ng-repeat="f in friendsList" style="margin-left: 400px;margin-right: 350px">
+<!-- <tr ng-repeat="pr in listOfPendingRequests"> -->
+<div class="row">
+<span ng-hide="currentUser.username==pr.fromId" style="margin-left: 150px;" >
+<img src="http://localhost:8080/backend_project2/getimage/{{f.fromId}}" alt="Picture Not Available" width="100px" height="100px" class="img-circle">
+</span>
+<span ng-hide="currentUser.username==f.toId" style="margin-left: 150px;" >
+<img src="http://localhost:8080/backend_project2/getimage/{{f.toId}}" alt="Picture Not Available" width="100px" height="100px" class="img-circle">
+</span>
+
+<br>
+
+<span style="font-size:x-large;font-weight: bold;margin-left: 168px;"  ng-hide="currentUser.username==f.fromId">
+{{f.fromId}}</span>
+<span style="font-size:x-large;font-weight: bold;margin-left: 168px;"  ng-hide="currentUser.username==f.toId">
+{{f.toId}}</span><br>
+
+</div>
+
+</div>
+</div>

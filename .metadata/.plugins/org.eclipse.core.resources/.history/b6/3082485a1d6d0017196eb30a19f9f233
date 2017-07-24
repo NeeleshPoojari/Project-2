@@ -1,0 +1,16 @@
+
+
+
+.navbar-default {
+	/* background-color: #e93679; */
+	border-color: #000000;
+	border-radius: 0;
+	background-image: url('images/red1.jpg');
+}
+
+.nav.navbar-nav>li>a {
+	color: #fff;
+	font-size: large;
+	font-family: inherit;
+	font-weight: bolder;
+}
