@@ -10,11 +10,12 @@
 <img src="http://localhost:8080/backend_project2/getimage/{{pr.fromId}}" alt="Picture Not Available" width="100px" height="100px" class="img-circle">
 </span><br>
 
-<span style="font-size:x-large;font-weight: bold;margin-left: 168px;">
+<span style="font-size:x-large;font-weight: bold;margin-left: 160px;">
 {{pr.fromId}}</span><br>
 <a href="" ng-click="updatePendingRequest(pr.fromId,'A')" class="btn btn-success" style="font-weight: bold;margin-left: 120px;">Accept</a>
 <a href="" ng-click="updatePendingRequest(pr.fromId,'D')" class="btn btn-danger" style="font-weight: bold;">Reject</a>
 </div>
 
 </div>
+<h2  align="center" ng-show="listOfPendingRequests==0" style="color: white;font-weight:bold; ;">No Pending requests</h2>
 </div>

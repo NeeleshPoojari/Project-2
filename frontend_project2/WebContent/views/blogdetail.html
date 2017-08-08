@@ -11,6 +11,8 @@
 					<div style="font-family: monospace; font-size: x-large;">
 						<strong>Title:{{blogPost.title}}</strong>
 					</div>
+					<span><img src="http://localhost:8080/backend_project2/getimage/{{blogPost.createdBy.username}}" alt="Picture Not Available" width="50px" height="50px" class="img-circle">
+</span>
 					<span style="font-family: monospace; font-size: large;"><strong>Created
 							By:</strong>{{blogPost.createdBy.username}}</span> <span
 						style="font-family: monospace; font-size: large;"><strong>&nbsp;&nbsp;&nbsp;On:</strong>{{blogPost.postedOn
@@ -18,7 +20,7 @@
 
 				</div>
 				<div class="panel-body"
-					style="font-size: medium; font-style: italic;">{{blogPost.description}}</div>
+					style="font-size: medium; font-style: italic;font-weight: bold;">{{blogPost.description}}</div>
 
 			</div>
 

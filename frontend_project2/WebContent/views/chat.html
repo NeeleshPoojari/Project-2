@@ -8,11 +8,12 @@
     <link href="assets/common/portfolio.css" rel="stylesheet">
   </head>
   <body>
-
+  
+  <div  style="margin-top: 80px;">
     <header class="container">
       <div id="heading" class="masthead">
         
-        <h2>Chat <small>Online Chat Room</small></h2>
+        <h2 style="color: white;">Chat <small>Online Chat Room</small></h2>
        
       </div>
    </header>
@@ -31,7 +32,7 @@
    		<div class="col-md-12">
    		
    			<form role="form" id="chatForm" ng-submit="sendMessage(chat)">
-          <div class="alert alert-info notification" id="joinedChat" ng-if="latestUser" ng-animate="{enter: 'fade', leave: 'fade'}">
+          <div class="alert alert-info notification" id="joinedChat" ng-if="latestUser" ng-animate="{enter: 'fade', leave: 'fade'}" style="margin-top: 80px;">
             {{latestUser}} has joined the chat!
           </div>
   			  <div class="form-group">
@@ -70,6 +71,6 @@
  
    
    </section>
-   
+   </div>
     </body>
 </html>

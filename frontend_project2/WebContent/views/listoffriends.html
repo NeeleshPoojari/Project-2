@@ -28,7 +28,7 @@
 <div class="container" style="margin-top:80px;">
 
 <div class="alert alert-warning" ng-repeat="f in friendsList" style="margin-left: 400px;margin-right: 350px">
-<!-- <tr ng-repeat="pr in listOfPendingRequests"> -->
+
 <div class="row">
 <span ng-hide="currentUser.username==f.fromId" style="margin-left: 150px;" >
 <img src="http://localhost:8080/backend_project2/getimage/{{f.fromId}}" alt="Picture Not Available" width="100px" height="100px" class="img-circle">
@@ -39,13 +39,14 @@
 
 <br>
 
-<span style="font-size:x-large;font-weight: bold;margin-left: 168px;"  ng-hide="currentUser.username==f.fromId">
+<span style="font-size:x-large;font-weight: bold;margin-left: 163px;"  ng-hide="currentUser.username==f.fromId">
 {{f.fromId}}</span>
-<span style="font-size:x-large;font-weight: bold;margin-left: 168px;"  ng-hide="currentUser.username==f.toId">
+<span style="font-size:x-large;font-weight: bold;margin-left: 163px;"  ng-hide="currentUser.username==f.toId">
 {{f.toId}}</span><br>
 
-<span style="margin-left: 168px;"><a href="#/chat"  class="btn btn-warning btn-lg"><strong>chat</strong></a></span>
+<span style="margin-left: 163px;"><a href="#/chat"  class="btn btn-warning btn-lg"><strong>chat</strong></a></span>
 </div>
 
 </div>
+<h2 align="center"  ng-show="friendsList==0" style="color: white;font-weight:bold;">Friends List is empty</h2>
 </div>

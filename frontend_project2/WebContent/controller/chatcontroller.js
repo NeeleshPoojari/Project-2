@@ -1,3 +1,5 @@
+
+
 app.controller('ChatCtrl', ['$rootScope' ,'$scope', 'socket', function($rootScope ,$scope, socket) {
     alert('entering chat controller')
     $scope.chats = [];

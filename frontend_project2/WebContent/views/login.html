@@ -13,32 +13,38 @@
 	</div>
 
 
-	<form>
+	<form name="loginForm" novalidate>
 		<div align="center">
 			<div class="row">
 				<div class="form-group col-xs-12">
 					<label><b><big>Username</big></b></label> <input type="text"
-						ng-model="user.username" placeholder="Enter Username"
+						ng-model="user.username" name="username"
+						 placeholder="Enter Username"
 						class="form-control input-lg" required>
+						<p ng-show="loginForm.username.$invalid && loginForm.username.$dirty" style="color: red;font-weight: bold;">Username cannot be blank</p>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="form-group col-xs-12">
 					<label><big><b>Password</b></big></label> <input type="password"
-						ng-model="user.password" placeholder="Enter Password"
+						ng-model="user.password" placeholder="Enter Password" name="password"
 						class="form-control input-lg" required>
+						<p ng-show="loginForm.password.$invalid && loginForm.password.$dirty" style="color: red;font-weight: bold;" >Password cannot be blank</p>
 				</div>
 			</div>
-			<span style="color: green;background-color: white;"><b><big>&nbsp;{{message}}&nbsp;</big></b></span> <span
-				style="color: red;background-color: white;"><b><big>&nbsp;{{error.message}}&nbsp;</big></b></span>
+			<span style="color: green;background-color: white;"><b><big>   {{message}}   </big></b></span> <span
+				style="color: red;background-color: white;"><b><big>    {{error.message}} </big></b></span>
 			      {{registrationSuccess}}
 			<br>
-			<button type="submit" value="login" ng-click="login()"
+			<button type="submit" value="login"  ng-disabled="loginForm.$invalid" ng-click="login()"
 				class="btn btn-success btn-lg">Login</button>
 		</div>
-		 <input type="submit" value="login" ng-click="login()">
+		 <!-- <input type="submit" value="login" ng-click="login()"> -->
 	</form>
+	<div align="right">
+	<a  href="#/registration" style="color: red;font-weight: bold;background-color: white;font-size: medium; ">&nbsp;&nbsp;  Register Now &nbsp;&nbsp; </a>
+	</div>
 </div>
 </div>
 

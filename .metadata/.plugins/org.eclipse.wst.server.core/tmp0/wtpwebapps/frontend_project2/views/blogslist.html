@@ -6,13 +6,15 @@
 </div>
 <div class="container" ng-show="currentUser.role=='Admin'"  >
  <br><br>
- <h2 align="center"><strong>List of blogs Waiting For Approval</strong></h2>
-<div class="alert alert-warning" ng-repeat="blogPost in blogsWaitingForApproval | orderBy:'time':true | filter:blogTitle"  style="background-image: url('images/green.png');">
+ <h2 align="center" style="color: white;"><strong>List of blogs Waiting For Approval</strong></h2>
+<div class="alert alert-warning" ng-repeat="blogPost in blogsWaitingForApproval | orderBy:'time':true | filter:blogTitle"  style="background-color:  #ff3333">
 
-       
-     <a href="#getBlogForApproval/{{blogPost.id}}"><strong style="color:red;font-size: x-large;">{{blogPost.title}}</strong></a>
-     <br>
-   <strong style="color:black; ">  Created By: {{blogPost.createdBy.username}} &nbsp; Created On: {{blogPost.postedOn | date:'dd/MM/yyyy HH:mm'}}</strong>
+    
+     <a href="#getBlogForApproval/{{blogPost.id}}"><strong style="color:white;font-size: x-large;">{{blogPost.title}}</strong></a>
+     <br><br>
+     <span><img src="http://localhost:8080/backend_project2/getimage/{{blogPost.createdBy.username}}" alt="Picture Not Available" width="50px" height="50px" class="img-circle">
+</span>
+   <strong style="color:white; ">  Created By: {{blogPost.createdBy.username}} &nbsp; Created On: {{blogPost.postedOn | date:'dd/MM/yyyy HH:mm'}}</strong>
 
 
 
@@ -57,12 +59,15 @@ List of Blog Posts
 
  <div class="container">
  <br><br>
- <h2 align="center"><strong>List of Blogs</strong></h2>
-<div class="alert alert-warning" ng-repeat="blogPost in blogsApproved | orderBy:'time':true | filter:blogTitle"" style="background-image: url('images/green.png');">
+ <h2 align="center" style="color: white;"><strong>List of Blogs</strong></h2>
+<div class="alert alert-warning" ng-repeat="blogPost in blogsApproved | orderBy:'time':true | filter:blogTitle"" style="background-color: #00ff99;">
 
        
-     <a href="#getBlogDetail/{{blogPost.id}}"><strong style="color: white;font-size: x-large;">{{blogPost.title}}</strong></a>
-     <br>
+   
+     <a  href="#getBlogDetail/{{blogPost.id}}"><strong style="color: black;font-size: x-large;">&nbsp;&nbsp;&nbsp; {{blogPost.title}}</strong></a>
+     <br><br>
+      <span><img src="http://localhost:8080/backend_project2/getimage/{{blogPost.createdBy.username}}" alt="Picture Not Available" width="50px" height="50px" class="img-circle">
+</span>
    <strong style="color:black; ">  Created By: {{blogPost.createdBy.username}} &nbsp; Created On: {{blogPost.postedOn | date:'dd/MM/yyyy HH:mm'}}</strong>
 
 

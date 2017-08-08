@@ -1,0 +1,13 @@
+127.0.0.1 - - [08/Aug/2017:18:40:33 +0530] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:04 +0530] "GET /frontend_project2/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:07 +0530] "GET /backend_project2/getimage/%7B%7BcurrentUser.username%7D%7D HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:08 +0530] "GET /favicon.ico HTTP/1.1" 404 1016
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:16 +0530] "GET /backend_project2/getuserdetails HTTP/1.1" 401 51
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:25 +0530] "POST /backend_project2/login HTTP/1.1" 200 156
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:26 +0530] "GET /backend_project2/getimage/Neelesh HTTP/1.1" 200 12676
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:38 +0530] "GET /frontend_project2/views/jobform.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:39 +0530] "GET /backend_project2/getalljobs HTTP/1.1" 200 2772
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:44 +0530] "GET /backend_project2/getalljobs HTTP/1.1" 200 2772
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:47 +0530] "GET /backend_project2/getjobbyid/64 HTTP/1.1" 200 242
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:55 +0530] "GET /backend_project2/logout HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:18:42:55 +0530] "GET /backend_project2/getuserdetails HTTP/1.1" 401 51

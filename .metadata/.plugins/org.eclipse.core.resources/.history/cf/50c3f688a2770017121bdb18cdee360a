@@ -1,0 +1,80 @@
+
+<div style="margin-top: 80px">
+
+<div align="right" style="margin-right:200px; ">
+<span style="font-size: medium;font-weight: bold;"><strong style="color: white;">Search</strong><input ng-model="blogTitle"></span>
+</div>
+<div class="container" ng-show="currentUser.role=='Admin'"  >
+ <br><br>
+ <h2 align="center" style="color: white;"><strong>List of blogs Waiting For Approval</strong></h2>
+<div class="alert alert-warning" ng-repeat="blogPost in blogsWaitingForApproval | orderBy:'time':true | filter:blogTitle"  style="background-color:  #ff3333">
+
+    
+     <a href="#getBlogForApproval/{{blogPost.id}}"><strong style="color:white;font-size: x-large;">{{blogPost.title}}</strong></a>
+     <br>
+     <span><img src="http://localhost:8080/backend_project2/getimage/{{blogPost.createdBy.username}}" alt="Picture Not Available" width="50px" height="50px" class="img-circle">
+</span>
+   <strong style="color:white; ">  Created By: {{blogPost.createdBy.username}} &nbsp; Created On: {{blogPost.postedOn | date:'dd/MM/yyyy HH:mm'}}</strong>
+
+
+
+        </div>
+
+
+</div>
+
+
+<!-- <div class="table-responsive" ng-show="currentUser.role=='Admin'">
+ List of Blog Posts waiting for approval
+ <table class="table">
+ <tr><th> Recent Posts</th></tr>
+ <tr ng-repeat="blogPost in blogsWaitingForApproval | orderBy:'time':true">
+ 
+ <td><a href="#getBlogForApproval/{{blogPost.id}}">{{blogPost.title}}</a></td>
+ <td>Created By: {{blogPost.createdBy.username}}</td>
+ <td>Created On: {{blogPost.postedOn | date:'MM/dd/yyyy HH:mm'}}</td>
+ </tr>
+ 
+ </table>
+
+</div> -->
+
+<!-- <div class="table-responsive">
+List of Blog Posts
+
+
+
+<table class="table">
+ <tr><th> Recent Posts</th></tr>
+ <tr ng-repeat="blogPost in blogsApproved | orderBy:'time':true">
+ 
+ <td><a href="#getBlogDetail/{{blogPost.id}}">{{blogPost.title}}</a></td>
+ <td>Created By: {{blogPost.createdBy.username}}</td>
+ <td>Created On: {{blogPost.postedOn | date:'MM/dd/yyyy HH:mm'}}</td>
+ </tr>
+ 
+ </table>
+
+</div> -->
+
+ <div class="container">
+ <br><br>
+ <h2 align="center" style="color: white;"><strong>List of Blogs</strong></h2>
+<div class="alert alert-warning" ng-repeat="blogPost in blogsApproved | orderBy:'time':true | filter:blogTitle"" style="background-color: #00b36b;">
+
+       
+   
+     <a  href="#getBlogDetail/{{blogPost.id}}"><strong style="color: black;font-size: x-large;">&nbsp;&nbsp;&nbsp;&nbsp; {{blogPost.title}}</strong></a>
+     <br><br>
+      <span><img src="http://localhost:8080/backend_project2/getimage/{{blogPost.createdBy.username}}" alt="Picture Not Available" width="50px" height="50px" class="img-circle">
+</span>
+   <strong style="color:black; ">  Created By: {{blogPost.createdBy.username}} &nbsp; Created On: {{blogPost.postedOn | date:'dd/MM/yyyy HH:mm'}}</strong>
+
+
+
+        </div>
+
+
+</div>
+
+</div>
